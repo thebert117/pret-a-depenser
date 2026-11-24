@@ -1,0 +1,28 @@
+# Données (jamais sur GitHub)
+data/raw/
+data/processed/
+*.csv
+
+# MLflow local
+mlruns/
+mlartifacts/
+mlflow.db
+model_tmp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
