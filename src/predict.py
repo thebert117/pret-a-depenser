@@ -106,7 +106,7 @@ def predire_client(modele, clients, types, sk_id_curr):
     return predire(modele, X)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     sk_id = int(sys.argv[1]) if len(sys.argv) > 1 else 100001
     modele = charger_modele()
     print(predire_client(modele, charger_clients(), types_attendus(modele), sk_id))
